@@ -1,0 +1,17 @@
+<meta charset="utf-8">
+
+<script>
+	function pulaLinha(){
+		document.write("<br>");
+	}
+	function mostra(texto){
+		document.write(texto);
+		pulaLinha();
+	}
+	var chegadaBrasil = 1500;
+	var anoAtual = 2022;
+	var anosGeracao = 28;
+	var quantidadeGeracao = ((anoAtual-chegadaBrasil)/anosGeracao);
+	mostra("A quantidade de gerações que se passaram desde 1500 é de " + Math.round(quantidadeGeracao));
+
+</script>
